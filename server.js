@@ -18,7 +18,7 @@ app.use(function (req, res, next) {
 });
 
 // 追加
-app.use(express.static(__dirname + '/distStoreFrontHouse'))
+app.use(express.static(__dirname + '/dist/StoreFrontHouse'))
 
 
 const { WatsonMLScoringEndpoint } = require("watson-ml-model-utils");
